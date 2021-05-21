@@ -4,9 +4,22 @@ body {
   border: 0;
 }
 
+.container {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
 header {
   margin-top: -23px;
   background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
 
 nav li {
