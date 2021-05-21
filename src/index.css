@@ -5,6 +5,10 @@ body {
   text-align: center;
 }
 
+.titulo-principal {
+  padding-left: 20px;
+}
+
 #banner {
   width: 100%;
 }
