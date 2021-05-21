@@ -1,4 +1,7 @@
 body {
+}
+
+.centralizar {
   text-align: center;
 }
 
@@ -8,17 +11,23 @@ body {
 
 .principal {
   background-color: #cccccc;
+  padding: 30px;
+  text-align: center;
 }
 #missao {
   font-size: 20px;
 }
 
-h2 {
+h3 {
   text-align: center;
 }
 
 ul {
   text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
 }
 
 .itens {
@@ -27,4 +36,10 @@ ul {
 
 .beneficios {
   background: #ffffff;
+  padding: 20px;
+}
+
+.imgbeneficios {
+  margin-left: -15%;
+  width: 50%;
 }
