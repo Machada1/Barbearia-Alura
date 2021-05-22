@@ -35,6 +35,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
 .serviços {
   width: 940px;
   margin: 0 auto;
