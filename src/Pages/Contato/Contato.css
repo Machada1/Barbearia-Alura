@@ -92,7 +92,13 @@ select {
 
 .enviar:hover {
   background: #b17a0c;
-  tr
+  transform: scale(1.1);
+}
+
+.enviar:active {
+  position: relative;
+  background: #976706;
+  transform: scale(1);
 }
 
 footer {
