@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: -23px;
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+  margin-right: 20px;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+/*main
+
+
+
+*/
+
+footer {
+  margin-bottom: -18px;
+  text-align: center;
+  background: url("C:/Users/guilh/Documents/Projetos/barbearia-alura/src/Imagens/bg.jpg");
+}
+
+.copyright {
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-bottom: 45px;
+}
