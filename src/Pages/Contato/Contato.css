@@ -72,6 +72,28 @@ select {
   font-size: 18px;
 }
 
+.quadrohorarios {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 38px;
+}
+
+table {
+  margin: 20px 40px;
+}
+
+thead {
+  background: #c78c19;
+  color: black;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 15px 8px;
+}
+
 .checkbox {
   margin: 20px 20px;
 }
