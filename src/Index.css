@@ -1,12 +1,43 @@
 body {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-.centralizar {
-  text-align: center;
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
 }
 
-.titulo-principal {
-  padding-left: 20px;
+header {
+  margin-top: -23px;
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
 }
 
 #banner {
@@ -14,24 +45,32 @@ body {
 }
 
 .principal {
+  margin-top: -5px;
   background-color: #cccccc;
   padding: 30px;
   text-align: center;
-}
-#missao {
   font-size: 20px;
 }
+#missao {
+  font-size: 25px;
+}
 
-h3 {
+h4 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.centralizar {
   text-align: center;
 }
 
-ul {
+.benefícios-descrição {
   text-align: left;
   display: inline-block;
   vertical-align: top;
   width: 20%;
   margin-right: 15%;
+  font-size: 20px;
 }
 
 .itens {
@@ -44,6 +83,6 @@ ul {
 }
 
 .imgbeneficios {
-  margin-left: -15%;
+  margin-left: -5%;
   width: 50%;
 }
