@@ -57,6 +57,7 @@ nav a:hover {
   text-align: center;
   font-size: 2em;
   clear: left;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .titulo-principal:before {
@@ -134,6 +135,12 @@ nav a:hover {
 
 .imgbeneficios {
   width: 60%;
+  opacity: 0.9;
+  transition: 400ms;
+}
+
+.imgbeneficios:hover {
+  opacity: 1;
 }
 
 .video {
