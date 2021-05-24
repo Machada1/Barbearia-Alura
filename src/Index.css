@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .caixa {
@@ -41,51 +42,113 @@ nav a:hover {
   text-decoration: underline;
 }
 
-#banner {
+.banner {
   width: 100%;
 }
 
 .principal {
-  margin-top: -5px;
-  background-color: #cccccc;
-  padding: 30px;
+  width: 940px;
+  margin: 0 auto;
+  background: #fefefe;
+}
+
+.titulo-principal {
+  margin-top: 0;
   text-align: center;
-  font-size: 20px;
-}
-#missao {
-  font-size: 25px;
-}
-
-h4 {
-  text-align: center;
-  font-size: 25px;
+  font-size: 2em;
+  clear: left;
+  color: rgba(0, 0, 0, 0.8);
 }
 
-.centralizar {
-  text-align: center;
+.titulo-principal:before {
+  content: "[ ";
 }
 
-.benefícios-descrição {
-  text-align: left;
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
-  font-size: 20px;
+.titulo-principal:after {
+  content: " ]";
 }
 
-.itens {
+.utensilios {
+  width: 150px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.principal p {
+  margin: 0 0 1em;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
   font-style: italic;
 }
 
+.mapa {
+  padding: 3em 0;
+  background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa-conteudo {
+  width: 940px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: auto;
+}
+
+.mapa p {
+  margin: 0 0 2em;
+  text-align: center;
+}
+
 .beneficios {
-  background: #ffffff;
-  padding: 20px;
+  background: #888888;
+}
+
+.conteudo-beneficios {
+  width: 640px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.lista-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  list-style-type: none;
+}
+
+.itens {
+  line-height: 1.5;
+}
+
+.itens:before {
+  content: "★  ";
+}
+
+.itens:first-child {
+  font-weight: bold;
 }
 
 .imgbeneficios {
-  margin-left: -5%;
-  width: 50%;
+  width: 45%;
+  opacity: 0.9;
+  transition: 400ms;
+  box-shadow: 5px 5px 8px 2px black;
+}
+
+.imgbeneficios:hover {
+  opacity: 1;
+}
+
+.video {
+  width: 560px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: auto;
 }
 
 footer {
@@ -99,4 +162,27 @@ footer {
   font-size: 15px;
   margin-top: 20px;
   padding-bottom: 45px;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios,
+  .imgbeneficios {
+    display: inline-block;
+  }
 }
