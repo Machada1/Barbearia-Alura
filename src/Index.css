@@ -117,10 +117,15 @@ nav a:hover {
   display: inline-block;
   vertical-align: top;
   margin: 0;
+  list-style-type: none;
 }
 
 .itens {
   line-height: 1.5;
+}
+
+.itens:before {
+  content: "★  ";
 }
 
 .itens:first-child {
