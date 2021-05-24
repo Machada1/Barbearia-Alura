@@ -59,6 +59,14 @@ nav a:hover {
   clear: left;
 }
 
+.titulo-principal:before {
+  content: "[ ";
+}
+
+.titulo-principal:after {
+  content: " ]";
+}
+
 .utensilios {
   width: 150px;
   float: left;
@@ -78,6 +86,7 @@ nav a:hover {
 }
 
 .mapa {
+  padding: 3em 0;
   background: linear-gradient(#fefefe, #888888);
 }
 
