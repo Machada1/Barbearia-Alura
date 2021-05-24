@@ -134,7 +134,7 @@ nav a:hover {
 }
 
 .imgbeneficios {
-  width: 60%;
+  width: 45%;
   opacity: 0.9;
   transition: 400ms;
   box-shadow: 5px 5px 8px 2px black;
@@ -162,4 +162,27 @@ footer {
   font-size: 15px;
   margin-top: 20px;
   padding-bottom: 45px;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios,
+  .imgbeneficios {
+    display: inline-block;
+  }
 }
