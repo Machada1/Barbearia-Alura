@@ -75,6 +75,16 @@ nav a:hover {
   font-style: italic;
 }
 
+.mapa {
+  padding: 3em 0;
+  margin: 10%;
+}
+
+.mapa p {
+  margin: 0 0 2em;
+  text-align: center;
+}
+
 .beneficios {
   margin-left: 10%;
 }
