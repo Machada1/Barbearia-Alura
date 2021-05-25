@@ -180,9 +180,4 @@ footer {
   nav {
     position: static;
   }
-
-  .lista-beneficios,
-  .imgbeneficios {
-    display: inline-block;
-  }
 }
